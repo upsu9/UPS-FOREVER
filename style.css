@@ -41,9 +41,12 @@ body {
 
 .link {
     text-decoration: none;
-    padding: 0.5rem 1.5rem; 
+    padding: 0.5rem 2rem; 
+    display: inline;;
+    margin: 1rem;
     
 }
+
 
 .primary-link {
     color: seashell;
@@ -64,6 +67,7 @@ body {
     border: 1px solid var(--primary-color);
     margin: 0.5rem;
     width: 100px;
+    
 }
 
 hr {
@@ -202,7 +206,7 @@ font-weight: bolder;
 .make-center
 {
     margin: 0px;
-    display: inline-flex;
+    display: inline;
 }
 .non-bullets
 {
