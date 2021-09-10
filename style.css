@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+   /*  box-sizing: border-box;  */
+ }
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0px
+}
+
+:root {
+    --primary-color:
+        #4338CA;
+}
+
+.pagewrap
+{
+    display: flex;
+
+    /*vertically stack children*/
+    flex-direction: column;
+
+    /* expand to take full height of page */
+    /* min-height overrides both height & max-height */
+    min-height: 100vh; 
+}
+.container {
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.container-center {
+    max-width: 500px;
+    margin: auto;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1.5rem; 
+    
+}
+
+.primary-link {
+    color: seashell;
+    border-radius: 0.5rem;
+    background-color:
+        #4338CA;
+    margin: 0.5rem;
+
+  
+
+}
+
+.secondary-link {
+
+    border-radius: 0.5rem;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    margin: 0.5rem
+}
+
+hr {
+    /*   padding: 1rem 2rem; */
+    margin: 2rem 0rem;
+}
+
+.linka {
+    display: inline;
+    margin: 0.5rem
+}
+
+.list-a {
+    list-style: none;
+    padding: 0rem 1rem;
+    margin: 0.5rem
+}
+
+.list-b {
+    list-style: none;
+}
+
+
+
+.nav1 {
+    background-color: var(--primary-color);
+    padding: 1rem 2rem;
+    border-radius: 00.5rem;
+
+}
+
+.navbrand {
+    color: white;
+    text-shadow: var(--primary-color);
+    font-weight: bold;
+}
+
+.link3 {
+
+    list-style: none;
+    display: inline;
+    padding: 0rem 1rem;
+
+
+}
+
+.link4 {
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    text-shadow: var(--primary-color);
+
+
+}
+
+.nav1 .link5 {
+    font-weight: bold;
+}
+
+.nav3 {
+
+    text-align: right;
+
+}
+
+.hero{
+
+padding: 1rem;
+}
+.hero-img
+{
+    margin: auto;
+    max-width: 200px;
+    display: block;
+}
+.hero-header
+{
+text-align: center;
+color: grey;
+font-weight: bolder;
+
+}
+
+.header-color
+{
+    color:var(--primary-color);
+    font-weight: bold;
+}
+
+/* section */
+
+.section
+{
+    background-color: var(--primary-color);
+    text-align: center;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 00.5rem;
+
+}
+
+.section1
+{
+    background-color:whitesmoke;
+    text-align: center;
+    color: var(--primary-color);
+    padding: 1rem;
+    border-radius: 00.5rem;
+
+}
+
+.sec1{ 
+    font-style: italic;
+
+}
+
+.sec2{ 
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+/* footer */
+
+.footers
+{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    
+
+}
+
+.make-center
+{
+    margin: 0px;
+    display: inline-flex;
+}
+.non-bullets
+{
+list-style: none;
+display: inline;
+padding: 2rem 1rem;
+}
+.text-color
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+/* you need to do is stretch the element to take as much height as possible. Use flex-grow to do this. */
+main{
+    flex-grow: 1;
+  } 
